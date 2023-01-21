@@ -1,0 +1,98 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  text-decoration: destination-over;
+  color: blue;
+}
+
+.song {
+  border-radius: 5px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.mp3 {
+  width: 25%;
+}
+
+audio::-webkit-media-controls-panel {
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,1);
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(225,0,0,0.75) 50%);
+}
+
+input {
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.75) 50%);
+  color: #fff;
+  box-shadow: 0px 0px 4px 2px rgba(255,0,0,0.2);
+  padding: 10px;
+  font-family: Arial, sans-serif; font-size: 14px;
+}
+input:hover{
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,255,1) 60%);
+  font-family: Arial, sans-serif; font-size: 14px;
+  #display: flex; 
+  #justify-content: space-between;
+  padding: 10px 32px;
+}
+.btn:hover {
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, rgba(0,0,255,0.5) 0%, rgba(255,0,0,0.25) 60%);
+  font-family: Arial, sans-serif; font-size: 14px;
+  #display: flex; 
+  #justify-content: space-between;
+  padding: 10px 32px;
+}
+
+#back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 16px;
+}
+
+.cyear {
+  font-size: 1.1em;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.container {
+  text-align: center;
+  background: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+}
+h3 {
+  padding-top: 10px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+  <script></script>
+  <title>Popular Songs by {blank}</title>
+</head>
+  
+<body>
+  <a href="/"><button class ="btn" id="back" value="Back">Back</button></a>
+  <center>
+    <div class="top">
+      <h3>Search Most Popular Songs by {blank}</h3>
+      <form action="{where}" method="post">
+      {form}
+        <button class="btn" type="submit" name="search" value="Search">Search</button>
+      </form>
+  </center>
+</div>
+<hr>
+  {{year}}
+  <div class="container">
+  {content}
+  </div>
+</body>
+</html>
