@@ -14,7 +14,6 @@ a:hover {
 
 .song {
   border-radius: 5px;
-  
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
@@ -94,5 +93,5 @@ input:hover{
   margin: 0 auto;
 }
 h3 {
-  padding-top: 10px;
+  padding-top: 15px;
 }
